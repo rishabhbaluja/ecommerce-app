@@ -11,7 +11,7 @@ import { auth } from "./firebase/firebase.util";
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {
+    this.state = { 
       currentUser: null,
     };
   }
